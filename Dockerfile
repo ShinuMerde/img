@@ -1,5 +1,5 @@
 FROM python:3
-COPY templates /app
+COPY templates /app/templates
 COPY main.py /app
 COPY requirements.txt /app
 WORKDIR /app
